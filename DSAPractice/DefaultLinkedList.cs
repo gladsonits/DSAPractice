@@ -21,6 +21,17 @@ namespace DSAPractice
             l.AddLast(30);
             l.AddLast(40);
             l.AddLast(50);
+            l.AddFirst(20);
+
+            l.Remove(20);
+
+            LinkedListNode<int> newnode = new LinkedListNode<int>(60);
+            Console.WriteLine("Contains new node:" + l.Contains(60));
+
+            l.AddLast(newnode);
+            l.Remove(newnode);
+
+            Console.WriteLine("Contains:" + l.Contains(50));
 
             Console.WriteLine("List of numbers:");
 

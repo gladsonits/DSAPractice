@@ -17,8 +17,14 @@ Array.ForEach(array, Console.WriteLine);
 //Console.WriteLine($"is it empty?{linkedList.Empty}");
 //Console.WriteLine($"Count- ${linkedList.Count}");
 
-DefaultLinkedList defaultLinkedList = new DefaultLinkedList();
-defaultLinkedList.DoOperations();
+//DefaultLinkedList defaultLinkedList = new DefaultLinkedList();
+//defaultLinkedList.DoOperations();
+
+PalindromeExercise palindromeExercise = new PalindromeExercise();
+
+Console.WriteLine(palindromeExercise.IsPalindrome("baab"));
+Console.WriteLine(palindromeExercise.IsPalindrome("baaab"));
+Console.WriteLine(palindromeExercise.IsPalindrome("baadab"));
 
 Console.ReadKey();
 
